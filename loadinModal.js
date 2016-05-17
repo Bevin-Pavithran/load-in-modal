@@ -1,6 +1,6 @@
 (function ($) {
 
-	$.fn.loadInModal =function (callback) {
+	$.fn.loadInModal =function ( callback) {
 
 		createModal();
 
