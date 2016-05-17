@@ -1,14 +1,26 @@
-.modal-dialog-loadinModal {
+.modal-dialog {
   width: 100%;
+  max-width: 1300px;
   height: 90%;
-  margin: 0;
-  margin-top: 6px;
-  padding-left:5%;
-  padding-right: 5%;
+  margin: auto;
 }
 
-.modal-content-loadinModal {
+.modal-container {
+  padding: 15px;
+}
+
+.modal-content {
   height: auto;
   min-height: 90%;
   border-radius: 0;
+  max-width: 1300px;
 }
+
+#siteloader-content{
+  width: 32%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15%;
+}
+
+ 

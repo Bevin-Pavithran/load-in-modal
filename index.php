@@ -11,7 +11,11 @@
   <link rel="stylesheet" href="loadinModal.css">
   <script>
     $(document).ready(function () {
-      $('.addtomodal').loadInModal();
+      $('.addtomodal').loadInModal(function(){
+        $('#iframeinmodal').on('load',function () {
+          $('#siteloader-content').hide();
+        });
+      });
     });
   </script>
 </head>
