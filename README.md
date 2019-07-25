@@ -1,3 +1,23 @@
+{
+  repository (owner:"bitcoin",name:"bitcoin"){
+        name
+        forkCount
+        stargazers {
+            totalCount
+        }
+        defaultBranchRef {
+            name
+            target {
+                ... on Commit {        
+                    history(first: 0) {
+                        totalCount
+                    }
+                }
+            }
+        }
+    }
+}
+
 ## Load In Modal
 This project allows the user load content of a link on a modal. When an user clicks on a link, the content of the link is loaded on an iFrame within the modal. 
 
